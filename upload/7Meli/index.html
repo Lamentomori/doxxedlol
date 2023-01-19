@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+2	<html lang="en">
+3	<head>
+4	    <meta charset="utf-8">
+5	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+6	    <meta name="viewport" content="width=device-width, initial-scale=1">
+7	    <title>Doxbin - 7Meli The DownFall of MeliSec</title>
+8	    <meta name="description" content="7Meli The DownFall of MeliSec - Paste created by DoxDemon on Jan 19th, 2023">
+9	 
+10	    
+11	    <link rel="stylesheet" href="https://doxbin.org/legacy/app.css?r=46">
+12	    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+13	    <link href="/legacy/css/show.css?r=44" rel="stylesheet">
+14	    <link href="https://doxbin.org/legacy/google-code-prettify/tomorrow-night.css" rel="stylesheet">
+15	    <link href="https://doxbin.org/legacy/toastr/toastr.min.css" rel="stylesheet">
+16	    <script src="https://doxbin.org/legacy/custom.modernizr.js"></script>
+17	    <script src="https://doxbin.org/legacy/jquery.min.js"></script>
+18	    <link href="/files/doxbin.css?r=32" rel="stylesheet">
+19	    
+20		<style>
+21	    select, option{
+22	        line-height: 1.2;
+23	        color: white;
+24	        background: #282828;
+25	        border: 0;
+26	        border-radius: 2px;
+27	        display: inline-block;
+28	        -webkit-font-smoothing: antialiased;
+29	        outline: none;
+30	        padding: 7px 5px;
+31	        width: 50%;
+32	        /* margin-bottom: 10px; */
+33	    }
+34	    .right{
+35	        text-align: right;
+36	        width: 100%;
+37	    }
+38	    select, option{
+39	        font-size: 100%;
+40	    }
+41	    input#paste-password:disabled{
+42	        color: rgb(190, 190, 190);
+43	    }
+44	    pre a:hover{
+45	        text-decoration: underline;
+46	    }
+47	    @font-face {
+48	    font-family: 'Material Icons';
+49	    font-style: normal;
+50	    font-weight: 400;
+51	    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+52	    src: local('Material Icons'),
+53	        local('MaterialIcons-Regular'),
+54	        url(https://doxbin.org/MaterialIcons-Regular.woff2) format('woff2'),
+55	        url(https://doxbin.org/MaterialIcons-Regular.woff) format('woff'),
+56	        url(https://doxbin.org/MaterialIcons-Regular.ttf) format('truetype');
+57	    }
+58	 
+59	 
+60	    .material-icons {
+61	  font-family: 'Material Icons';
+62	  font-weight: normal;
+63	  font-style: normal;
+64	  font-size: 24px;  /* Preferred icon size */
+65	  display: inline-block;
+66	  line-height: 1;
+67	  text-transform: none;
+68	  letter-spacing: normal;
+69	  word-wrap: normal;
+70	  white-space: nowrap;
+71	  direction: ltr;
+72	 
+73	  /* Support for all WebKit browsers. */
+74	  -webkit-font-smoothing: antialiased;
+75	  /* Support for Safari and Chrome. */
+76	  text-rendering: optimizeLegibility;
+77	 
+78	  /* Support for Firefox. */
+79	  -moz-osx-font-smoothing: grayscale;
+80	 
+81	  /* Support for IE. */
+82	  font-feature-settings: 'liga';
+83	}
+84	 
+85	 
+86	    .like-dislike-paste a, .like-dislike-paste span{
+87	        display: inline-block;
+88	    }
+89	    .like-dislike-paste a span.material-icons, .like-dislike-paste span span.material-icons{
+90	        font-size: 17px;
+91	        margin-right: 3px;
+92	    }
+93	    .like-dislike-paste a span.paste-likes, .like-dislike-paste a span.paste-dislikes{
+94	        font-size: 13px;
+95	    }
+96	 
+97	 
+98	 
+99	    .like-dislike-comment a, .like-dislike-comment span{
+100	        display: inline-block;
+101	    }
+102	    .like-dislike-comment a span.material-icons, .like-dislike-comment span span.material-icons{
+103	        font-size: 15px;
+104	        margin-right: 2px;
+105	    }
+106	    .like-dislike-comment a span.comment-likes, .like-dislike-comment a span.comment-dislikes{
+107	        font-size: 11px;
+108	    }
+109	 
+110	 
+111	 
+112	    #like-paste, #dislike-paste, a.like-comment, a.dislike-comment{
+113	        color: white;
+114	    }
+115	    #like-paste:hover, #dislike-paste:hover, .like-comment:hover, div.like-dislike-comment .dislike-comment:hover{
+116	        color: rgb(161, 161, 161) !important;
+117	    }
+118	    a.button{
+119	        font-size: 14px !important;
+120	        text-transform: none !important;
+121	    }
+122	    </style>
+123		<script>
+124		var doxid = 194956;
+125	    var cnum = 10;
+126	    var banned = 0;
+127	    var uName = "DoxDemon";
+128	    var uAdmin = 0;
+129	    var chc = 0;
+130	 
+131	// 
+132	</script>
+133	    </head>
+134	<body class="bin" style="overflow-x: hidden;">
+135	    <div class="wrapper">
+136	        <div class="table">
+137	        
+138	        <a href="#" class="show-sidebar show"><i class="fa fa-arrow-right"></i></a>
+212	        <p style="margin-top: 0;color: white;position: center;">7Meli Is a bitchass nigga</a></p>
+213	        </div>
+214	        
+215	    </div>
+216	 
+217	    <div class="show-container" style="padding-left: 20px;">
+218	<pre style="color: white; margin: 0;"> <!-- clickable links -->
+219	                                             __  __      _ _   _____       _____       _                _ 
+220	                                            |  \/  |    | (_) |_   _|     |  __ \     (_)              | |
+221	                                            | \  / | ___| |_    | |  ___  | |__) |   _ _ _ __   ___  __| |
+222	                                            | |\/| |/ _ \ | |   | | / __| |  _  / | | | | '_ \ / _ \/ _` |
+223	                                            | |  | |  __/ | |  _| |_\__ \ | | \ \ |_| | | | | |  __/ (_| |
+224	                                            |_|  |_|\___|_|_| |_____|___/ |_|  \_\__,_|_|_| |_|\___|\__,_|
+225	                                                               
+226	                                                                                                                                
+227	                                                                   
+228	 
+229	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+230	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+231	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+232	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+233	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+234	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⣿⣿⡿⢻⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+235	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⠃⠈⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+236	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⡏⠀⠀⠸⠿⠿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+237	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⣾⣿⣿⡿⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠁
+238	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⢿⣿⣿⣿⣿⣿⡿⠿⠿⠿⠿⣸⣿⣿⣿⠃⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⠿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠀⠀
+239	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⣿⣿⣿⣿⣦⣄⠀⢠⣿⣿⣿⡟⠀⠀⠀⠀⠀⠀⢹⣿⣿⣿⡄⠀⣠⣴⣿⣿⣿⣿⠟⠉⠀⠀⠀⠀⠀⠀
+240	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⣿⣿⣿⣿⣶⣌⡻⣿⣿⠃⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⡧⢰⣿⣿⣿⡿⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀
+241	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⣿⣿⣿⣿⣾⣟⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⡆⣿⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+242	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡛⢿⣿⣿⣿⣷⣦⡀⠀⠀⢀⣤⣾⣇⢿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+243	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣶⣭⠻⢿⣿⣿⣟⣣⣾⣿⣿⣿⣿⡘⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+244	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⠇⠀⠀⣩⣶⣿⣿⣿⣿⡿⣏⠁⠀⢹⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+245	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⡿⣀⣴⣿⣿⣿⣿⡿⠟⣩⣾⣿⣷⣤⡈⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+246	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠀⠈⠛⢿⣿⣿⣿⣾⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+247	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⡿⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⣿⣿⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+248	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+249	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⡟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⢿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+250	                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀
+251	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+252	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+253	 
+254	                                                                    Name // Luis Moreno                                                                   
+255	                                                                                                                                               
+256	                                                                          Aliases:                                                                     
+257	                                                                           7Meli                                                               
+258	                                                                           Luis                                                                       
+259	                                                                           Louis                                                                      
+260	                                                                         Age // 16                                                                             
+261	                                                                                                                                               
+262	                                                                      Gender // Male
+263	 
+264	                                                                   School // Louis E Deruiff
+265	                                                  (I obtained this myself after he told me to swat his school)                                                                        
+266	                                                                                                                                               
+267	                                                         Address // 712 N Jordan St; Allentown, PA 18102-1819                                                                                                                      
+268	                                                                                                                                               
+269	                                                         Neighbors // Michael A Turko Jr.                                                      
+270	                                                                      419 N 10th St                                                                
+271	                                                                                                                                                
+272	                                                                      Joel Rodriguez                                                           
+273	                                                                      419 N 10th St                                                              
+274	                                                                                                                                               
+275	                                                                      Anna V Diaz                                                              
+276	                                                                      419 N 10th St                                                            
+277	                                                                                                                                               
+278	                                                                      Leopoldina A Diaz                                                              
+279	                                                                      419 N 10th St                                                            
+280	                                                                                                                                               
+281	                                                                      Carlos Cruz                                                              
+282	                                                                      419 N 10th St                                                            
+283	                                                                                                                                               
+284	                                                                      Shacara Matthews                                                          
+285	                                                                      419 N 10th St                                                                  
+286	                                                                                                                                               
+287	                                                                      Ana V Diaz                                                                  
+288	                                                                      419 N 10th St                                                                            
+289	                                                                                                                                               
+290	                                                                      Melissa A Marinelli                                                      
+291	                                                                      420 N 10th St                                                                  
+292	                                                                                                                                                      
+293	                                                                      Joseph Marinelli                                                          
+294	                                                                      420 N 10th St                                                              
+295	                                                                                                                                               
+296	                                                                      Christian Garcia                                                          
+297	                                                                      421 N 10th St                                                              
+298	                                                                                                                                                  
+299	                                                                      Francisco Liz                                                              
+300	                                                                      422 N 10th St                                                              
+301	                                                                                                                                                          
+302	                                                                      Aida A Liz                                                                      
+303	                                                                      422 N 10th St                                                              
+304	                                                                                                                                               
+305	                                                                      Elizabeth Sabian                                                              
+306	                                                                      422 N 10th St                                                              
+307	                                                                                                                                                  
+308	                                                                      Ana Colon                                                                
+309	                                                                      424 N 10th St                                                                  
+310	                                                                                                                                                  
+311	                                                                      Maria V Colon                                                              
+312	                                                                      424 N 10th St                                                              
+313	                                                                                                                                                
+314	                                                                      Ramon A Colon                                                              
+315	                                                                      424 N 10th St                                                              
+316	                                                                                                                                                  
+317	                                                                      Michael Plunkett                                                          
+318	                                                                      424 N 10th St                                                              
+319	                                                                                                                                                    
+320	                                                                      Elisa Colon                                                                      
+321	                                                                      424 N 10th St                                                              
+322	                                                                                                                                                  
+323	                                                                      Sylvince Azor                                                              
+324	                                                                      425 N 10th St                                                              
+325	                                                                                                                                               
+326	                                                                      Jermiah Fransico                                                         
+327	                                                                      425 N 10th St                                                              
+328	                                                                                                                                                  
+329	                                                                      Zahir Mcfadden                                                              
+330	                                                                      425 N 10th St                                                                  
+331	                                                                                                                                                    
+332	                                                                      Eric B Robinson                                                          
+333	                                                                      426 N 10th St                                                              
+334	                                                                                                                                               
+335	                                                                      Melissa A Shull                                                              
+336	                                                                      427 N 10th St                                                                  
+337	                                                                     
+338	                                                                      Family Members
+339	                                                                             
+340	                                                                    Louis Moreno ~ Father                                                       
+341	                                                                    Angel Moreno ~ Mother                                                    
+342	                                                                     Mia Moreno ~ Sister                                                         
+343	                                                                                                                                                  
+344	                                                         PHONE NUMBER // 484-904-8947                                                             
+345	                                                                         CITY / Allentown                                                      
+346	                                                                         STATE / PA                                                             
+347	                                                                         COUNTY / Lehigh                                                         
+348	                                                                         TIMEZONE / Eastern                                                     
+349	                                                                         CARRIER / Cavalier Telephone Mid-atlantic, Llc - Pa                     
+350	                                                                         TYPE / Landline                                                             
+351	                                                                                                                                                  
+352	                                                         PREVIOUS PHONE // 484-893-9246                                                             
+353	                                                                           CITY / Bethlehem                                                      
+354	                                                                           STATE / PA                                                               
+355	                                                                           COUNTY / Northampton                                                    
+356	                                                                           TIMEZONE / Eastern                                                   
+357	                                                                           CARRIER / Atx Telecommunications Services, Ltd                       
+358	                                                                           TYPE / Landline                                                     
+359	                                                                             
+360	                                                                             SOCIAL MEDIA                                                                         
+361	                                                                          Snapchat / diorr38                                                      
+362	                                                                          Snapchat / diorr98                                                             
+363	                                                                         Discord / 7Meli#6078 
+364	                                                                        ID: 834853201600577556                                        
+365	                                                                                                                                               
+366	                                                                                EMAILS:                                                                            
+367	                                                                     #1 &gt; 7melirunsyou@gmail.com                                                                          
+368	                                                                     #2 &gt; lord7melii@gmail.com                                                                  
+369	                                                                     #3 &gt; daddy7meli@gmail.com                                                                  
+370	                                                                     #4 &gt; beamedby7meli@gmail.com                                                                  
+371	                                                                     #5 &gt; 7melirunsall@gmail.com                                                                  
+372	                                                                     #6 &gt; 7melilovesyou@gmail.com                                                                  
+373	                                                                     #7 &gt; idk24300@gmail.com                                                                  
+374	                                                                     #8 &gt; 7meliownsyou@gmail.com                                                                  
+375	                                                                     #9 &gt; 7777randomemail@gmail.com                                                                  
+376	                                                                     #10 &gt; 7meli1400@gmail.com                                                                  
+377	                                                                     #11 &gt; 7melii223@gmail.com                                                                  
+378	                                                                     #12 &gt; lm9312035@gmail.com                                                                   
+379	                                                                                                                                                                    
+380	                                                                                                                                               
+381	                                                                             Passwords: 
+382	                                                                              m006382                                                         
+383	                                                                              hotboy21                                                         
+384	                                                                            luismoreno7m                                                   
+385	                                                                               djm454
+386	 
+387	 
+388	 
+389	 
+390	 
+391	 
+392	 
+393	 
+394	 
+395	 
+396	 
+397	 
+398	⠀                                          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣾⣿⣿⣿⣿⣾⣶⡢⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+399	⠀                                          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡶⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡑⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+400	⠀                                          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡔⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣌⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+401	⠀                                          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡌⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+402	                                         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⡸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+403	                                         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡏⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠆⢰⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+404	                                         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣃⠂⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+405	                                         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠨⡎⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣭⠄⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+406	                                         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢳⠉⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣎⠄⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+407	                                         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡆⠛⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⢹⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+408	                                         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢳⠁⢽⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣛⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+409	                                         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣆⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢖⢋⣿⣧⡀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+410	                                         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣘⣬⠟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣃⡿⣿⣾⣿⡟⠷⣿⣶⣄⣀⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+411	                                          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡨⠗⣈⠲⡙⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠢⠑⠊⠀⠹⡿⣿⢟⡛⠛⢑⠲⣆⣴⡤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+412	⠀                                          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡤⠒⠉⠀⠀⠊⠷⣢⣈⣬⣿⡿⣿⣿⣿⣿⣿⣿⣾⠦⠀⠡⢈⠄⠐⠀⢈⠐⠸⠅⠉⠈⠃⣽⡿⠹⠠⠕⠢⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+413	⠀                                          ⠀⠀⠀⠀⠀⠀⠀⢀⢠⡾⠁⠀⠐⠒⠂⠀⠀⠀⠀⠃⡹⣏⡿⢿⢶⣿⠿⠼⣿⣿⡆⠀⠀⠉⠉⠁⠀⢀⠀⠀⠀⠀⠠⠀⣿⠅⠋⠉⠋⢍⣗⣭⣴⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+414	⠀                                          ⠀⠀⠀⠀⠀⢠⢜⠉⢀⠤⠒⠙⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡄⠀⠀⠀⠀⠀⠹⣿⣧⠀⠀⠠⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⣰⡯⢴⣻⣶⡤⣀⠀⠀⠀⠀⠀⠀⠀
+415	⠀                                          ⠀⠀⠀⠀⢠⠋⠈⣷⠄⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠂⠲⡇⠀⢠⡄⠀⠈⠨⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⣰⡟⢩⠛⠿⢘⣭⢸⠀⠀⠀⠀⠀⠀⠀
+416	⠀                                          ⠀⠀⠀⠠⡟⠄⠀⠙⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣄⠀⠀⠀⢀⢀⢿⣿⠀⠀⠁⠄⠀⢀⠀⠀⠀⠀⠀⠀⠀⢹⡆⢠⠀⢼⡿⠡⠋⠀⠀⠀⠙⢗⣱⣄⠀⠀⠀⠀⠀
+417	                                         ⠀⠀⠀⠀⣾⠁⢂⠂⢰⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢐⠜⣇⠊⠀⠀⡾⠀⣿⣿⠉⠀⢀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡀⢸⡟⠁⠐⠀⠀⠈⠀⠀⠀⠈⠉⢧⣄⠀⠀⠀
+418	                                         ⠀⠀⠀⢰⢅⠀⢡⠒⡄⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢲⣿⠀⡶⠀⠏⢈⣿⣿⡎⠀⠀⠈⠐⠀⠀⠀⠀⠀⠀⠂⠀⠈⣿⡄⣾⠅⠈⠀⠀⠀⠀⠀⠀⠀⢀⣰⣢⣬⡗⢒⢄
+419	                                         ⠀⠀⢠⠯⠀⠬⠀⡔⣷⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣻⢇⣥⠀⠠⠀⢪⣾⣷⢷⡄⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣻⣜⣿⠀⠀⠀⠀⠀⠀⠀⠀⣰⡾⠟⠛⠉⠃⠀⢈
+420	                                         ⠀⠀⣘⠰⠀⠀⠀⠻⣸⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠂⠀⠙⠄⢡⣘⡙⣿⣷⣌⣙⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣷⣿⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠠⠀⠂⠀⠀
+421	                                         ⠀⢠⠁⠀⠀⠀⠀⠓⠈⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⡱⣿⣿⣷⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡿⠖⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠂⠀⠀⠀⠀
+422	                                         ⠀⣟⠀⠈⠀⠀⠀⠀⠉⢸⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⢉⣾⣞⣸⠁⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠉⣿⣅⣅⣴⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+423	                                         ⢰⣏⠐⠀⠀⠀⠀⠀⣰⣾⣿⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⢷⣟⢻⢎⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+424	                                         ⡜⠀⠀⠀⠀⠀⠀⠠⣻⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⣭⣿⣾⣿⣇⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠂⠀⠀⠀⠈⣿⡃⠀⠀⠀⠀⠀⠐⠂⠀⠀⠀⠀⠀⠀⠀
+425	                                         ⠇⠀⠀⠀⠀⢀⠀⠀⢿⣿⡿⢿⣧⡀⠀⠀⠀⡀⡀⠀⠀⠀⠀⠀⢀⠀⠀⣡⣿⣿⣿⡟⡳⠿⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⣿⣦⠀⠀⠀⠀⠀⠐⠀⠐⠀⠀⠀⠀⢀⠀
+426	                                        
+427	 
+428	 
+429	 
+430	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+431	⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+432	⠀                                          ⠀⠀⠀⠀⠀⠀⣀⣀⣠⣀⣀⠀⠀⢀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⢀⣀⣀⡀⠀⠀⡀⠀⠀⣼⠁
+433	⠀                                          ⠀⠀⠀⣶⣿⠿⣿⡟⠋⠉⣿⣷⣠⣾⡟⣿⣿⠻⣿⣦⣶⠟⠀⠀⢠⣾⡿⢿⣿⠛⠉⢹⣿⣆⣤⣶⠿⠛⢁⣾⣿⡀⣴⣿⡇⣴⣿⠏⣿⣷⢰⣿⣿⠀⣼⡟⠀
+434	⠀                                          ⠀⠀⠀⠈⠁⣸⣿⡇⠀⣠⣿⢷⣿⣿⢠⣿⡟⠀⢹⣿⣿⠀⠀⠀⠀⠉⠀⣾⣿⠀⠀⣼⡿⣉⣽⣿⡾⠃⣼⡿⣿⣾⣿⣟⢹⣿⡿⢰⣿⡇⣿⣿⣿⣰⣿⠃⠀
+435	⠀                                          ⠀⠀⠀⠀⢀⣿⡟⢀⣴⡿⠋⢸⣿⣧⣿⡿⠁⢠⡿⠉⠛⠷⠀⠀⠀⠀⣸⣿⠃⣠⣾⠟⠁⣹⣿⣣⣴⢞⡿⠑⠿⠿⣿⠇⢿⣿⣷⣿⡟⢰⡟⠸⣿⠿⠃⠀⠀
+436	⠀                                          ⠀⠀⠀⠀⣼⣟⣴⡿⠋⠀⠀⠀⠉⠙⠋⠀⠀⠎⠀⠀⠀⠀⠀⠀⠀⢀⣿⣯⣾⠟⠁⠀⠀⠿⠿⠋⠁⠀⠁⠀⠀⢠⡿⠀⠈⠉⠙⠉⠀⠈⠀⠀⠀⠀⠀⠀⠀
+437	⠀                                          ⠀⠀⠀⢀⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⡿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+438	⠀                                          ⠀⠀⣰⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡼⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+439	⠀                                          ⠀⠚⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+440	 
+441	</pre>
+442	        </div>
+	        </div>
+444	    </div>
+445		
+446	    <script src="https://doxbin.org/legacy/mousetrap.min.js"></script>
+447	    <script src="https://doxbin.org/legacy/google-code-prettify/prettify.js"></script>
+448	    <script src="https://doxbin.org/legacy/tabby.js"></script>
+449	    <script src="https://doxbin.org/legacy/zclip.min.js"></script>
+450	    <script src="https://doxbin.org/legacy/toastr/toastr.min.js"></script>
+451	    <script src="https://doxbin.org/legacy/bin.js"></script>
+452	    <script src="https://doxbin.org/legacy/logout.js"></script>
+453	    <script src="https://doxbin.org/legacy/paste.js?r=1"></script>
+454	        <script>
+455	        var captcha = 'recaptcha';
+456	 
+457	        //         
+458	        $('#like-paste, #dislike-paste').on('click', function(e){
+459	            window.location = '/register';
+460	        });
+461	 
+462	        // 
+463	 
+464	 
+465	 
+466	 
+467	        //  ?endif
+468	 
+469	        $('#paste-password-submit').on('click', function(e){
+470	            $(this).text('Submitting...');
+471	            $.post('/upload/7MeliTheDownFallofMeliSec/manage', {
+472	                _token: $('input[name=_token]').val(),
+473	                action: 'edit-password',
+474	                value: $('#paste-password').val()
+475	            }, function(resp){
+476	                if(resp.status == "err"){
+477	                    if(resp.msg){
+478	                        $(this).text(resp.msg);
+479	                    }else{
+480	                        $(this).text('Error');
+481	                    }
+482	                }else{
+483	                    $('#password-options').show();
+484	                    $('#paste-password-submit').hide();
+485	                    $('#paste-password').prop('disabled', true);
+486	                }
+487	            });
+488	            e.preventDefault();
+489	        });
+490	        $('#edit-password').on('click', function(e){
+491	            // $('#password-options').hide();
+492	            $('#paste-password-submit').text('Save password').show();
+493	            $('#paste-password').prop('disabled', false).focus();
+494	            e.preventDefault();
+495	        });
+496	        $('#remove-password').on('click', function(e){
+497	            $.post('/upload/7MeliTheDownFallofMeliSec/manage', {
+498	                _token: $('input[name=_token]').val(),
+499	                action: 'remove-password'
+500	            }, function(resp){
+501	                if(resp.status == "err"){
+502	                    alert(resp);
+503	                }else{
+504	                    $('#password-options').hide();
+505	                    $('#paste-password-submit').text('Password protect paste').show();
+506	                    $('#paste-password').val('');
+507	                    $('#paste-password').prop('disabled', false);
+508	                }
+509	            });
+510	            e.preventDefault();
+511	        });
+512	        $('#fpblacklist').on('click', function(e){
+513	            $.post('/admin/api/ban', {
+514	                _token: $('input[name=_token]').val(),
+515	                pid: doxid,
+516	                val: !banned
+517	            }, function(resp){
+518	                if(resp.status == "done"){
+519	                    location.reload();
+520	                }else{
+521	                    alert(resp.status);
+522	                }
+523	            });
+524	            e.preventDefault();
+525	        });
+526	    
+527	    $('#vis').on('change', function(e){
+528	        $.post('/api/pastes/visibility', {
+529	            _token: $('input[name=_token]').val(),
+530	            pid: doxid,
+531	            val: this.value
+532	        }, function(resp){
+533	            if(resp.status == 1){
+534	                location.reload();
+535	            }
+536	        });
+537	        e.preventDefault();
+538	    });
+539	 
+540	// 
+541	// 
+542	 
+543	 
+544	    $('#paste-manage').on('click', function(e){ // br3nnnt0n
+545	        if(b1){
+546	            $('#paste-manager').hide();
+547	            $('#tos-display').show();
+548	            $('#staff-btns, #btns, #hidden-by, #cmntsctn, .staff-notes').show();
+549	        }else{
+550	            $('#paste-manager').show();
+551	            $('#tos-display').hide();
+552	            $('#staff-btns, #btns, #hidden-by, #cmntsctn, .staff-notes').hide();
+553	        }
+554	        b1 = !b1;
+555	        e.preventDefault();
+556	    }); 
+557	 
+558	    $('#hide-dropdown').on('change', function(){ // Hide dropdown
+559	        $('#hide-reason').val(this.value);
+560	    });
+561	 
+562	 
+563	// 
+564	// 
+565	 
+566	    var b1 = false;
+567	    
+568	    $('#create-note').on('click', function(e){
+569			var username = "Anonymous";
+570			var note = $('#note').val();
+571	        $.post('/admin/api/staff-comment', {
+572	            _token: $('input[name=_token]').val(),
+573	            pid: doxid,
+574	            action: 'create',
+575	            note: $('#note').val(),
+576	            nid: 0
+577	        }, function(resp){
+578	            if(resp.status == "done"){
+579	                $('#note').val('');
+580	                username = htmlspecialchars(username.trim());
+581	                note = htmlspecialchars(note.trim());
+582	                if(uName != ""){
+583	                    username = htmlspecialchars(uName);
+584	                }
+585	                if(username.length == 0){
+586	                    username = "Anonymous";
+587	                }
+588					$('.staff-notes-cont').append('<div class="b-comments b-comment" style="padding-left: 10px;"><b>' + (uName != "" ? '<a ' + (uAdmin != 0 ? 'style="color: red;"' : '') + 'href="/user/' + username + '">' + username + '</a>' : username) + '</b> - <p style="display: inline;">now</p><br><div class="b-content">' + note + '</div><br></div>');
+589	            }else{
+590	                alert('Error');
+591	            }
+592	        });
+593	    });
+594	    $('.deletenote').on('click', function(e){
+595	        var th = $(this);
+596	        $.post('/admin/api/staff-comment', {
+597	            _token: $('input[name=_token]').val(),
+598	            pid: doxid,
+599	            action: 'remove',
+600	            nid: $(this).attr('data-nid')
+601	        }, function(resp){
+602	            if(resp.status == "done"){
+603	                th.parent().remove();
+604	            }else{
+605	                alert('Error');
+606	            }
+607	        });
+608	        e.preventDefault();
+609	    });
+610	    </script>
+611	    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+612	    </body>
+613	</html>
+614	 
+<!-- all credits go to doxbin.com for assets and everything, thank you!>
+
+<!-- brenton / b@doxbin.org t.me/brenton -->
